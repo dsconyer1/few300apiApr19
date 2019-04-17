@@ -14,7 +14,7 @@ export class DevelopersController {
         return new Promise(resolve => {
             setTimeout(() => {
                 resolve({ data: this.database });
-            }, 3000);
+            }, 0);
         });
     }
 }
