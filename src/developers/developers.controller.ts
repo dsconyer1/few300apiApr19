@@ -40,7 +40,7 @@ export class DevelopersController {
 
 }
 
-interface Developer {
+export interface Developer {
     id: string;
     firstName: string;
     lastName: string;
