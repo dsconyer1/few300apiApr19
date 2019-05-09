@@ -1,4 +1,3 @@
-import { Developer } from 'src/developers/developers.controller';
 
 export class DefectResponse {
     id: string;
@@ -6,6 +5,6 @@ export class DefectResponse {
     dateSubmitted: Date;
     description: string;
     status: string;
-    developerId: Developer;
+    developerId: string;
     fixCommit: string;
 }
